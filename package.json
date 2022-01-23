@@ -1,0 +1,23 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyuJoonSik/js-data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyuJoonSik/js-data-structures/issues"
+  },
+  "homepage": "https://github.com/RyuJoonSik/js-data-structures#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
