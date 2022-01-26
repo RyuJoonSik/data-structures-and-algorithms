@@ -1,4 +1,3 @@
-"use strict";
 function 배열_합_구하기(배열) {
     if (배열.length === 1) {
         return 배열[0];

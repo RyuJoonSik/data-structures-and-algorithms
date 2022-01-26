@@ -1,4 +1,3 @@
-"use strict";
 function 배열_원소_2배로_만들기(배열, 인덱스 = 0) {
     if (인덱스 >= 배열.length) {
         return;

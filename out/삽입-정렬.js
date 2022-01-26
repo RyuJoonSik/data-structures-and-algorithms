@@ -1,4 +1,3 @@
-"use strict";
 function 삽입_정렬(배열) {
     for (let 기준_인덱스 = 1; 기준_인덱스 < 배열.length; 기준_인덱스++) {
         let 기준_값 = 배열[기준_인덱스];

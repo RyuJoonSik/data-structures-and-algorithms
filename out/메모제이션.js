@@ -1,4 +1,3 @@
-"use strict";
 function 피보나치(숫자) {
     if (숫자 === 0 || 숫자 === 1) {
         return 숫자;

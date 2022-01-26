@@ -1,4 +1,3 @@
-"use strict";
 function 버블_정렬(배열) {
     let 정렬되지_않은_마지막_인덱스 = 배열.length - 1;
     let 정렬되었는지 = false;

@@ -1,4 +1,3 @@
-"use strict";
 function 팩토리얼_하향식(숫자) {
     if (숫자 === 1) {
         return 1;

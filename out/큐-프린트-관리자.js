@@ -1,4 +1,3 @@
-"use strict";
 class 큐 {
     constructor() {
         this.배열 = [];

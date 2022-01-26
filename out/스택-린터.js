@@ -1,4 +1,3 @@
-"use strict";
 class 린터 {
     constructor() {
         this.스택 = [];

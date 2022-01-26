@@ -1,4 +1,3 @@
-"use strict";
 function 이진_검색(배열, 검색_값) {
     let 하한선 = 0;
     let 상한선 = 배열.length - 1;
