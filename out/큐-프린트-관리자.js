@@ -1,7 +1,5 @@
 class 큐 {
-    constructor() {
-        this.배열 = [];
-    }
+    배열 = [];
     인큐(요소) {
         this.배열.push(요소);
     }
@@ -13,9 +11,7 @@ class 큐 {
     }
 }
 class 프린트_관리자 {
-    constructor() {
-        this.$큐 = new 큐();
-    }
+    $큐 = new 큐();
     프린트_작업_추가(문서) {
         this.$큐.인큐(문서);
     }

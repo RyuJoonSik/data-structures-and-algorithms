@@ -1,7 +1,5 @@
 class 린터 {
-    constructor() {
-        this.스택 = [];
-    }
+    스택 = [];
     린트(문자열) {
         for (let 문자 of [...문자열]) {
             if (this.여는_괄호인지(문자)) {

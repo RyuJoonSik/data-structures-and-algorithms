@@ -1,4 +1,5 @@
 class 분할_배열 {
+    배열;
     constructor(배열) {
         this.배열 = 배열;
     }
