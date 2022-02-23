@@ -1,6 +1,5 @@
 from json.encoder import INFINITY
 
-
 n, m = map(int, input().split())
 cards = []
 
