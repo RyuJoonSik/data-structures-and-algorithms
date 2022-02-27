@@ -6,7 +6,10 @@
     "memory": "cpp",
     "tuple": "cpp",
     "utility": "cpp",
-    "xstring": "cpp"
+    "xstring": "cpp",
+    "iostream": "cpp",
+    "initializer_list": "cpp",
+    "xutility": "cpp"
   },
   "java.project.sourcePaths": [
     "정렬/퀵_정렬",
@@ -15,7 +18,11 @@
     "정렬/성적이_낮은_순서로_학생_출력하기",
     "정렬/선택_정렬",
     "정렬/삽입_정렬",
+    "정렬/두_배열의_원소_교채",
     "정렬/계수_정렬",
+    "이진_탐색/이진_탐색",
+    "이진_탐색/순차_탐색",
+    "이진_탐색/부품_찾기",
     "BFS_DFS/큐",
     "BFS_DFS/재귀_팩토리얼",
     "BFS_DFS/인접_행렬",
@@ -25,6 +32,6 @@
     "BFS_DFS/미로_탈출",
     "BFS_DFS/DFS",
     "BFS_DFS/BFS",
-    "정렬/두_배열의_원소_교채"
+    "이진_탐색/떡볶이_떡_만들기"
   ]
 }
