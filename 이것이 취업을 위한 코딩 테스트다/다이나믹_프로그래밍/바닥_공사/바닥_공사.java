@@ -5,7 +5,7 @@ public class 바닥_공사 {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int[] dp = new int[n + 1];
-    5
+    
     dp[1] = 1;
     dp[2] = 3;
 
