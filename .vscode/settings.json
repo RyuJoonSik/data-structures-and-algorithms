@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "queue": "cpp",
+    "vector": "cpp",
+    "utility": "cpp",
+    "stack": "cpp"
+  },
+  "java.project.sourcePaths": [
+    "이것이 취업을 위한 코딩 테스트다/그래프_이론/팀_결성",
+    "이것이 취업을 위한 코딩 테스트다/그래프_이론/도시_분할_계획"
+  ]
+}
