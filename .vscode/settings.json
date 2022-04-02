@@ -3,12 +3,17 @@
     "queue": "cpp",
     "vector": "cpp",
     "utility": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "system_error": "cpp",
+    "type_traits": "cpp",
+    "xlocnum": "cpp",
+    "xtr1common": "cpp"
   },
   "java.project.sourcePaths": [
+    "이것이 취업을 위한 코딩 테스트다/그리디/모험가_길드",
     "이것이 취업을 위한 코딩 테스트다/그래프_이론/팀_결성",
     "이것이 취업을 위한 코딩 테스트다/그래프_이론/커리큘럼",
     "이것이 취업을 위한 코딩 테스트다/그래프_이론/도시_분할_계획",
-    "이것이 취업을 위한 코딩 테스트다/그리디/모험가_길드"
+    "이것이 취업을 위한 코딩 테스트다/구현/문자열_재정렬"
   ]
 }
