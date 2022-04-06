@@ -15,7 +15,7 @@ int main() {
   for (int i = 0; i < apple_count; i++) {
     int row, column;
     cin >> row >> column;
-    arr[row][column] = 1;
+    arr[row - 1][column - 1] = 1;
   }
 
   int direction_count;
