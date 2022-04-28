@@ -23,21 +23,21 @@ var MyHashMap = function () {
 MyHashMap.prototype.put = function (key, value) {
   let index = key % this.size;
 
-  if (this.table[index].value == null) {
+  if (this.table[index].value === null) {
     this.table[index] = new ListNode(key, value);
-    console.log(this.table[index].value);
+
     return;
   }
 
   let p = this.table[index];
 
-  while (p != null) {
+  while (p !== null) {
     if (p.key === key) {
       p.value = value;
       return;
     }
 
-    if (!p.next) {
+    if (p.next === null) {
       break;
     }
 
@@ -54,20 +54,21 @@ MyHashMap.prototype.put = function (key, value) {
 MyHashMap.prototype.get = function (key) {
   let index = key % this.size;
 
-  if (this.table[index].value == null) {
+  if (this.table[index].value === null) {
     return -1;
   }
 
   let p = this.table[index];
 
-  while (p != null) {
+  while (p !== null) {
     if (p.key === key) {
       return p.value;
     }
 
     p = p.next;
-    return -1;
   }
+
+  return -1;
 };
 
 /**
@@ -77,11 +78,11 @@ MyHashMap.prototype.get = function (key) {
 MyHashMap.prototype.remove = function (key) {
   let index = key % this.size;
 
-  if (this.table[index].value == null) {
+  if (this.table[index].value === null) {
     return;
   }
 
-  let p = this.table[index];
+  let p = this.table[index] || null;
 
   if (p.key === key) {
     this.table[index] = p.next == null ? new ListNode() : p.next;
@@ -91,7 +92,7 @@ MyHashMap.prototype.remove = function (key) {
 
   let prev = p;
 
-  while (p != null) {
+  while (p !== null) {
     if (p.key === key) {
       prev.next = p.next;
       return;
